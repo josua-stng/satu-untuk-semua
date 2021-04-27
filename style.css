@@ -29,12 +29,12 @@ body {
   margin: 0 10px 0 0;
 }
 
-.nav__item a {
+.nav__link {
   text-decoration: none;
   color:black
 }
 
-.nav__item a:hover {
+.nav__link:hover {
   color:rgb(255, 255, 255);
   font-size: large;
 }
