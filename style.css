@@ -2,6 +2,39 @@ body {
   background-color: lightblue;
 }
 
+
 .avatar {
   width: 100px;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__logo {
+  color:black;
+}
+
+
+.nav__item {
+  display: inline-block;
+  list-style: none;
+  margin: 0 10px 0 0;
+}
+
+.nav__link {
+  text-decoration: none;
+  color:black
+}
+
+.nav__link:hover {
+  color:rgb(255, 255, 255);
+  font-size: large;
 }
